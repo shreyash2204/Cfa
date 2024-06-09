@@ -60,9 +60,9 @@ const Stats = () => {
 
   return (
     <div
-      className={`h-[350px] bg-[url('src/assets/commitment.jpeg')] bg-[length:110%_100%] bg-fixed bg-no-repeat relative`}>
+      className={`h-screen md:h-[350px] bg-[url('src/assets/commitment.jpeg')] bg-center bg-cover bg-fixed bg-no-repeat relative`}>
       <div className="absolute inset-0 bg-white opacity-10"></div>
-      <div className="flex justify-evenly items-center h-full text-5xl z-10 text-amber-500 font-bold">
+      <div className="flex justify-evenly items-center flex-col md:flex-row h-full text-5xl z-10 text-amber-500 font-bold">
         <div className="">
           <span ref={first}>100</span>
           <sup>+</sup>

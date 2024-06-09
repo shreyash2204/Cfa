@@ -16,7 +16,7 @@ const About = () => {
         end: "top center",
         toggleActions: "play none none reset",
       },
-      duration: 1.5,
+      duration: 1,
       x: 100,
       opacity: 0,
       ease: "power.out",
@@ -25,10 +25,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className="h-[120vh] py-14 w-[80%] mx-auto flex items-center gap-8 overflow-hidden">
+    <div className="h-[120vh] py-14 w-[90%] md:w-[80%] mx-auto flex flex-col-reverse md:flex-row items-center gap-8 overflow-hidden">
       <div
-        className={`h-full flex-1 bg-[url('src/assets/about.jpg')] bg-cover bg-fixed bg-no-repeat relative`}></div>
-      <div className="flex-1 flex  flex-col gap-4" ref={aboutText}>
+        className={`h-full w-full md:flex-1  bg-[url('src/assets/about.jpg')] bg-cover bg-fixed bg-no-repeat relative`}></div>
+      <div className="flex-1 flex flex-col gap-4 border" ref={aboutText}>
         <h2 className="text-xl text-orange-500 font-semibold">
           Learn About Us
         </h2>

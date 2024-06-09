@@ -6,12 +6,12 @@ import WhatWeDo from '../components/WhatWeDo'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <About />
       <WhatWeDo />
       <Stats />
-    </div>
+    </>
   )
 }
 

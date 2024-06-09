@@ -23,7 +23,7 @@ const WeDoCard = ({ imgUrl }) => {
         },
         duration: 1,
         opacity: 0,
-        y: 50,
+        y: 100,
         stagger: 0.5,
         ease: "power.out",
         marker: true,

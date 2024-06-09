@@ -7,7 +7,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="absolute z-10 top-[45%] right-8 text-orange-500 text-3xl h-12 w-12 flex justify-center items-center rotate-45 border-[1px] border-orange-500 hover:bg-orange-500 hover:text-white transition-all ease-in duration-300"
+      className="absolute z-10 top-[45%] right-4 lg:right-8 text-orange-500 text-xl lg:text-3xl h-8 lg:h-12 w-8 lg:w-12 flex justify-center items-center rotate-45 border-[1px] border-orange-500 hover:bg-orange-500 hover:text-white transition-all ease-in duration-300"
       onClick={onClick}>
       <SlArrowRight className="-rotate-45" />
     </div>
@@ -18,7 +18,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div
-      className="absolute z-10 top-[45%] left-8 text-orange-500 text-3xl h-12 w-12 flex justify-center items-center rotate-45 border-[1px] border-orange-500 hover:bg-orange-500 hover:text-white transition-all ease-in duration-300"
+      className="absolute z-10 top-[45%] left-4 lg:left-8 text-orange-500 text-xl lg:text-3xl h-8 lg:h-12 w-8 lg:w-12 flex justify-center items-center rotate-45 border-[1px] border-orange-500 hover:bg-orange-500 hover:text-white transition-all ease-in duration-300"
       onClick={onClick}>
       <SlArrowLeft className="-rotate-45" />
     </div>
@@ -34,6 +34,14 @@ const Hero = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   };
   return (
     <div className="overflow-hidden">

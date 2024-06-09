@@ -20,15 +20,17 @@ const WhatWeDo = () => {
       },
       marker: true,
       opacity: 0,
-      y: -50,
+      y: -100,
       duration: 1,
       ease: "power.out",
     });
   }, []);
 
   return (
-    <div className=" p-12">
-      <div className=" mb-12 flex flex-col items-center justify-center text-center gap-4" ref={wedoText}>
+    <div className=" p-6">
+      <div
+        className=" mb-12 flex flex-col items-center justify-center text-center gap-4"
+        ref={wedoText}>
         <h2 className="text-xl text-orange-500 font-semibold">What We Do?</h2>
         <h3 className="text-5xl font-medium">
           We Belive that we can save
@@ -37,7 +39,7 @@ const WhatWeDo = () => {
         </h3>
       </div>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,_375px))] place-content-center gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(320px,_1fr))] place-content-center gap-8">
         {wedoData.map((wedo) => (
           <WeDoCard key={wedo.id} {...wedo} />
         ))}

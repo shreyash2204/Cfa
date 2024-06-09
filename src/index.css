@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 .active {
-  color: red;
+  color: orange;
 }
 
-.section-stats {
-  /* background-image: url("./assets/commitment.jpeg"); */
-
-}
