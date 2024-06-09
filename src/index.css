@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: red;
+}
+
+.section-stats {
+  /* background-image: url("./assets/commitment.jpeg"); */
+
+}
