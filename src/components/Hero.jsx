@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import HeroItems from "./HeroItems";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import { heroData } from "../data";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -46,8 +47,8 @@ const Hero = () => {
   return (
     <div className="overflow-hidden">
       <Slider {...settings}>
-        {[1, 2, 3].map((item) => (
-          <HeroItems key={item} />
+        {heroData.map((item) => (
+          <HeroItems key={item.id} {...item} />
         ))}
       </Slider>
     </div>

@@ -14,3 +14,19 @@ export const wedoData = [
     imgUrl: images.wedoDog,
   },
 ];
+
+export const heroData = [
+  {
+    id: 1,
+    imgUrl: images.children1,
+  },
+  {
+    id: 2,
+    imgUrl: images.women1,
+  },
+  {
+    id: 3,
+    imgUrl: images.animal1,
+  },
+];
+

@@ -25,10 +25,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className="h-[120vh] py-14 w-[90%] md:w-[80%] mx-auto flex flex-col-reverse md:flex-row items-center gap-8 overflow-hidden">
+    <div className=" py-12 w-[90%] lg:w-[80%] mx-auto flex flex-col-reverse md:flex-row items-center gap-8 overflow-hidden">
       <div
-        className={`h-full w-full md:flex-1  bg-[url('src/assets/about.jpg')] bg-cover bg-fixed bg-no-repeat relative`}></div>
-      <div className="flex-1 flex flex-col gap-4 border" ref={aboutText}>
+        className={`h-[75vh] md:h-[100vh] w-full lg:flex-1 bg-[url('src/assets/children4.jpg')] bg-cover max-md:bg-center md:bg-contain bg-fixed bg-no-repeat relative`}></div>
+      <div className="flex-1 flex flex-col gap-4" ref={aboutText}>
         <h2 className="text-xl text-orange-500 font-semibold">
           Learn About Us
         </h2>

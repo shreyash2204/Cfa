@@ -33,7 +33,7 @@ const WeDoCard = ({ imgUrl }) => {
   });
 
   return (
-    <div className="h-max rounded-md overflow-hidden shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px]" ref={wedoCard}>
+    <div className="h-max place-self-center rounded-md overflow-hidden shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px]" ref={wedoCard}>
       <div className="h-[250px]">
         <img src={imgUrl} alt="" className="h-full w-full object-cover" />
       </div>

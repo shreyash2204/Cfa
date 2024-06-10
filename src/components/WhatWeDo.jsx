@@ -27,7 +27,7 @@ const WhatWeDo = () => {
   }, []);
 
   return (
-    <div className=" p-6">
+    <div className="w-[90%] lg:w-[80%] mx-auto pb-12">
       <div
         className=" mb-12 flex flex-col items-center justify-center text-center gap-4"
         ref={wedoText}>
@@ -39,7 +39,7 @@ const WhatWeDo = () => {
         </h3>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(320px,_1fr))] place-content-center gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(320px,_1fr))] place-content-center gap-6">
         {wedoData.map((wedo) => (
           <WeDoCard key={wedo.id} {...wedo} />
         ))}
