@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 import images from "../assets/images";
 import Button from "./Button";
+import gsap from "gsap";
 
 const HeroItems = ({imgUrl}) => {
+
+  const heroText = useRef(null);
+
+
+  gsap.from(heroText.current, {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    delay: 0.25,
+    ease: "power.out",
+  })
+
+
   return (
     <div className="h-screen relative">
         <div className="absolute inset-0 bg-neutral-500 opacity-35 z-[-1]"></div>
       <img src={imgUrl} className="h-full w-full object-cover absolute z-[-2] "></img>
-      <div className=" h-full w-[90%] md:w-[80%] mx-auto flex  text-white items-start justify-center flex-col gap-2 md:gap-4">
+      <div className=" h-full w-[90%] md:w-[80%] mx-auto flex  text-white items-start justify-center flex-col gap-2 md:gap-4" ref={heroText}>
       <h1 className="text-2xl text-orange-500 font-semibold ">
       Here at Care For All
         </h1>

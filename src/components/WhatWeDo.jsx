@@ -18,7 +18,6 @@ const WhatWeDo = () => {
         end: "top 20%",
         toggleActions: "play none none reset",
       },
-      marker: true,
       opacity: 0,
       y: -100,
       duration: 1,

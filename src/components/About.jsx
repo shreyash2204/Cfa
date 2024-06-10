@@ -21,7 +21,6 @@ const About = () => {
       x: 100,
       opacity: 0,
       ease: "power.out",
-      marker: true,
     });
   }, []);
 
@@ -30,7 +29,7 @@ const About = () => {
       <div
         className={`h-[75vh] md:h-[110vh] w-full lg:flex-1 bg-cover max-md:bg-center md:bg-contain bg-fixed bg-no-repeat relative`}
         style={{
-          backgroundImage: `url(${images.children4})`
+          backgroundImage: `url(${images.children4})`,
         }}></div>
       <div className="flex-1 flex flex-col gap-4" ref={aboutText}>
         <h2 className="text-xl text-orange-500 font-semibold">
