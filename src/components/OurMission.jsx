@@ -37,7 +37,7 @@ const OurMission = () => {
   });
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center w-[90%] lg:w-[80%] mx-auto pb-12 gap-4 lg:gap-8 h-screen overflow-hidden">
+    <div className="flex flex-col md:flex-row items-center justify-center w-[90%] lg:w-[80%] mx-auto pb-12 gap-4 lg:gap-8 min-h-[80vh] overflow-hidden">
       <div className="flex-1 flex flex-col gap-4" ref={missionText}>
         <h2 className="text-xl text-orange-500 font-semibold">Our Mission</h2>
         <h3 className="text-5xl font-medium">
@@ -54,7 +54,7 @@ const OurMission = () => {
           generations.
         </p>
       </div>
-      <div className="flex-1 h-[70%]" ref={missionImg}>
+      <div className="flex-1 h-[60vh]" ref={missionImg}>
         <img
           src={images.missionbg}
           alt=""
