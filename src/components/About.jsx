@@ -27,7 +27,7 @@ const About = () => {
   return (
     <div className=" py-12 w-[90%] lg:w-[80%] mx-auto flex flex-col-reverse md:flex-row items-center gap-8 overflow-hidden">
       <div
-        className={`h-[75vh] md:h-[110vh] w-full lg:flex-1 bg-cover max-md:bg-center md:bg-contain bg-fixed bg-no-repeat relative`}
+        className={`h-[75vh] lg:h-[110vh] w-full lg:flex-1 bg-cover bg-center bg-fixed bg-no-repeat relative`}
         style={{
           backgroundImage: `url(${images.children4})`,
         }}></div>

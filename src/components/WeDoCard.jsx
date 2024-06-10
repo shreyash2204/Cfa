@@ -6,9 +6,7 @@ import Button from "./Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WeDoCard = ({ imgUrl }) => {
-  // console.log(imgUrl);
-
+const WeDoCard = ({ imgUrl, text, title }) => {
   const wedoCard = useRef(null);
 
   useEffect(() => {
@@ -38,15 +36,9 @@ const WeDoCard = ({ imgUrl }) => {
       <div className="h-[250px]">
         <img src={imgUrl} alt="" className="h-full w-full object-cover" />
       </div>
-      <div className="p-4 flex flex-col items-start gap-4">
-        <h3 className="text-xl text-orange-500 font-semibold">
-          Lorem, ipsum dolor sit
-        </h3>
-        <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe
-          beatae ipsum dolor! Expedita eaque, harum cupiditate unde doloribus
-          molestiae modi consequatur corporis aliquam similique.
-        </p>
+      <div className="p-4 grid md:grid-rows-[auto,165px,auto] gap-4">
+        <h3 className="text-xl text-orange-500 font-semibold">{title}</h3>
+        <p className="text-[14px]">{text}</p>
         <Button name={"Donate"} heart={true} />
       </div>
     </div>
