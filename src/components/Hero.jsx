@@ -33,6 +33,8 @@ const Hero = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -45,7 +47,7 @@ const Hero = () => {
     ],
   };
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <Slider {...settings}>
         {heroData.map((item) => (
           <HeroItems key={item.id} {...item} />

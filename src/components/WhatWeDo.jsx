@@ -26,7 +26,7 @@ const WhatWeDo = () => {
   }, []);
 
   return (
-    <div className="w-[90%] lg:w-[80%] mx-auto pb-12">
+    <div className="w-[90%] lg:w-[80%] mx-auto py-12 overflow-hidden">
       <div
         className=" mb-12 flex flex-col items-center justify-center text-center gap-4"
         ref={wedoText}>

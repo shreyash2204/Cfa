@@ -10,24 +10,20 @@ const WeDoCard = ({ imgUrl, text, title }) => {
   const wedoCard = useRef(null);
 
   useEffect(() => {
-    gsap.from(
-      wedoCard.current,
-      {
-        scrollTrigger: {
-          trigger: wedoCard.current,
-          start: "top bottom",
-          end: "top 20%",
-          toggleActions: "play none none reset",
-        },
-        duration: 1,
-        opacity: 0,
-        y: 100,
-        stagger: 0.5,
-        ease: "power.out",
+    gsap.from(wedoCard.current, {
+      scrollTrigger: {
+        trigger: wedoCard.current,
+        start: "top bottom",
+        end: "top 20%",
+        toggleActions: "play none none reset",
       },
-      []
-    );
-  });
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      stagger: 0.5,
+      ease: "power.out",
+    });
+  }, []);
 
   return (
     <div

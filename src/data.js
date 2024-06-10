@@ -33,7 +33,7 @@ export const heroData = [
   },
   {
     id: 3,
-    imgUrl: images.animal1,
+    imgUrl: images.animal2,
   },
 ];
 

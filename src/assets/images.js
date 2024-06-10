@@ -18,6 +18,7 @@ import animal5 from "./animal5.png";
 import women1 from "./women1.jpg";
 import women2 from "./women2.jpg";
 import women3 from "./women3.jpeg";
+import missionbg from "./missionbg.jpeg";
 
 const images = {
   logo,
@@ -40,6 +41,7 @@ const images = {
   women1,
   women2,
   women3,
+  missionbg,
 };
 
 export default images;
