@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import images from "../assets/images";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,7 +28,10 @@ const About = () => {
   return (
     <div className=" py-12 w-[90%] lg:w-[80%] mx-auto flex flex-col-reverse md:flex-row items-center gap-8 overflow-hidden">
       <div
-        className={`h-[75vh] md:h-[100vh] w-full lg:flex-1 bg-[url('src/assets/children4.jpg')] bg-cover max-md:bg-center md:bg-contain bg-fixed bg-no-repeat relative`}></div>
+        className={`h-[75vh] md:h-[110vh] w-full lg:flex-1 bg-cover max-md:bg-center md:bg-contain bg-fixed bg-no-repeat relative`}
+        style={{
+          backgroundImage: `url(${images.children4})`
+        }}></div>
       <div className="flex-1 flex flex-col gap-4" ref={aboutText}>
         <h2 className="text-xl text-orange-500 font-semibold">
           Learn About Us
