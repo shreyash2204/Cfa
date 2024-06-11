@@ -36,15 +36,13 @@ const About = () => {
           Learn About Us
         </h2>
         <h3 className="text-5xl font-medium">
-          World wide Non Profit <br /> charity Organization
+        At Care for All 
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquam
-          accusamus nemo suscipit corrupti velit explicabo deleniti porro,
-          dolorum, optio animi ipsam reiciendis voluptatum maxime, ad veritatis
-          dolore voluptatem consequatur. Corrupti explicabo saepe temporibus
-          distinctio accusamus sit commodi dicta iure praesentium, fuga expedita
-          nobis labore quam illum nulla maiores tempore.
+        Our souls are deeply committed to making significant and enduring improvements in the world. Each day, through our steadfast support and practical programs, we aim to change the lives of women, children, animals, and the planet.
+        </p>
+        <p>
+        We firmly believe in the importance of assessing and measuring our effectiveness to be sure we're genuinely making a positive impact. Through careful and thorough tracking and review, we closely monitor the results of our projects, ready to adjust and improve to enhance our impact and reach. Our dedication to being accountable to our supporters and the communities we help motivates our continuous effort for excellence, pushing us to constantly improve and grow our positive influence.
         </p>
       </div>
     </div>

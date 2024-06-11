@@ -49,28 +49,13 @@ const DonateSection = () => {
               What <span className="gloria-font text-orange-500">we do</span>
             </h2>
             <p className=" text-[15px] ">
-              At Care for All, we are driven by a commitment to creating
-              meaningful and lasting change in the world. Through our advocacy
-              efforts and on-the-ground programs, we aim to have a
-              transformative impact on the lives of women, children, animals,
-              and the environment.
+            At Care for All, our souls are deeply committed to making significant and enduring improvements in the world. Each day, through our steadfast support and practical programs, we aim to change the lives of women, children, animals, and the planet.
             </p>
             <p className=" text-[15px]">
-              We believe in the importance of measuring and evaluating our
-              impact to ensure that we are effectively achieving our goals.
-              Through rigorous monitoring and evaluation processes, we track the
-              outcomes of our programs and initiatives, adjusting as needed to
-              maximize our effectiveness and reach. By holding ourselves
-              accountable to our stakeholders and the communities we serve, we
-              strive to continuously improve and increase our positive impact on
-              the world.
+            We firmly believe in the importance of assessing and measuring our effectiveness to be sure we're genuinely making a positive impact. Through careful and thorough tracking and review, we closely monitor the results of our projects, ready to adjust and improve to enhance our impact and reach. Our dedication to being accountable to our supporters and the communities we help motivates our continuous effort for excellence, pushing us to constantly improve and grow our positive influence.
             </p>
             <p className=" text-[15px]">
-              Are you ready to join us in our mission to create a better world
-              for women, children, animals, and the environment? Whether you
-              volunteer your time, donate, or simply spread the word about our
-              work, your support makes a difference. Together, we can build a
-              more just, compassionate, and sustainable world for all.
+            Are you ready to join us in this mission to build a better world for women, children, animals, and the environment? Whether it's by volunteering your time, donating, or simply spreading the word about our work, your support is a source of hope. Together, we can create a fairer, kinder, and more sustainable world for everyone. Every contribution, no matter how small, is crucial in this journey towards a brighter future.
             </p>
           </div>
 

@@ -41,17 +41,14 @@ const OurMission = () => {
       <div className="flex-1 flex flex-col gap-4" ref={missionText}>
         <h2 className="text-xl text-orange-500 font-semibold">Our Mission</h2>
         <h3 className="text-5xl font-medium">
-          Empowering lives, nurturing hope, <br /> and safeguarding our planet{" "}
+          Transforming lives, fostering optimism, <br /> and protecting our
+          environment
         </h3>
         <p>
-          Empowering lives, nurturing hope, and safeguarding our planet—Care For
-          All is on a mission to ignite change, one heart at a time. Through
-          advocacy for women, children, animals, and the environment, we
-          champion compassion, resilience, and equality. Our passion drives us
-          to create a world where every individual thrives, every child smiles,
-          every animal is cherished, and every corner of our earth flourishes.
-          Join us in our journey to make a difference that echoes for
-          generations.
+        That's what motivates us at Care For All. We're on a mission fueled by deep emotions to spark change, touching one heart at a time. By relentlessly fighting for the rights of women, children, animals, and our planet, we stand for kindness, strength, and fairness. Our strongest desire propels us towards a vision where everyone thrives, every child is happy, every animal is cherished, and every part of our world is in balance.
+        </p>
+        <p>
+        Come with us on this significant path to effect change that will last for generations. Together, we can shape a future brimming with love, fairness, and environmental care for everyone. Your contribution, whether it's through volunteering, giving, or sharing our cause, shines a beacon of hope in this journey of change. Let's create a world where every heart feels the comfort of care and the strength of hope. 
         </p>
       </div>
       <div className="flex-1 h-[60vh]" ref={missionImg}>

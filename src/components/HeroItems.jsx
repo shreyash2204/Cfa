@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Button from "./Button";
 import gsap from "gsap";
 
-const HeroItems = ({ imgUrl }) => {
+const HeroItems = ({ imgUrl, text }) => {
   const heroText = useRef(null);
 
   useEffect(() => {
@@ -30,12 +30,7 @@ const HeroItems = ({ imgUrl }) => {
         <p className="text-5xl md:text-6xl font-medium md:w-[65%]">
           We aim for a straight forward but significant goal
         </p>
-        <p className="md:text-lg md:w-[65%]">
-          To support the welfare of women, kids, animals, and our planet.
-          Situated in the core of Jabalpur, Madhya Pradesh, we are a charity
-          dedicated to empathy, honesty, and an unwavering commitment to
-          creating a better world
-        </p>
+        <p className="md:text-lg md:w-[65%]">{text}</p>
         <Button name="Learn More" />
       </div>
     </div>
